@@ -1,0 +1,30 @@
+.navbar-default {
+  margin : 0 !important;
+  border-bottom-style: solid;
+  text-align: center
+}
+
+.table {
+  margin: 0px auto;
+}
+
+.table td {
+   text-align: center
+}
+
+.table th {
+   text-align: center
+}
+
+.space {
+  padding-top : 50px
+}
+
+.title {
+  text-align : center;
+  font-size : 18pt
+}
+
+.bar {
+  height : 200px;
+}
