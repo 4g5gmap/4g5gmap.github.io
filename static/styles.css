@@ -1,0 +1,97 @@
+#llmap {
+    height: 92%;
+    width: 100%;
+    margin: 0
+ }
+
+.navbar-default {
+  margin : 0 !important;
+  border-bottom-style: solid
+}
+
+.leaflet-popup-content-wrapper {
+  color: black;
+  background-color: white;
+  width: 500px;
+  height: 450px;
+}
+
+.leaflet-popup-tip {
+  background-color: white
+}
+
+.header img {
+  float: left;
+}
+
+#utChart, #inChart, #imChart, #usimChart {
+  position: relative;
+  width: 400px;
+  height: 400px
+}
+
+#utgsmChart, #utumtsChart, #utlteChart,
+#ingsmChart, #inumtsChart, #inlteChart {
+  position: relative;
+  width: 450px;
+  height: 700px
+}
+
+.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color: white;
+    width: 450px;
+}
+
+.tab button {
+    background-color: inherit;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 2px 0px;
+    border-top: none;
+}
+
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.help {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 300px;
+    line-height: 130%;
+}
+.help h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
