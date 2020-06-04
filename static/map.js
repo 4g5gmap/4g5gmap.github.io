@@ -362,7 +362,7 @@ function makeMap(cells) {
     };
 
     info.update = function (props) {
-        this._div.innerHTML = '<h4>4G5GMap Help</h4><ul><li>This version is intended for NDSS 2021 review, not for public usage.</li><li>Best viewed with the latest version of Firefox.</li><li>Zoom in for more details for the following cities: Amsterdam, Berlin, Brussels, Las Vegas, London, Paris, Reykjavik, Riga, Tallinn, Wien</li><li>Click on a country and zoom into the city to find base stations and vulnerability scores.</li><li>Some operator\'s data are hidden due to responsible disclosure</li></ul>'
+        this._div.innerHTML = '<h4>4G5GMap Help</h4><ul><li>This version is intended for NDSS 2021 review, not for public usage.</li><li>Best viewed with the latest version of Firefox.</li><li>Zoom in for more details for the following cities: Amsterdam, Berlin, Brussels, Las Vegas, London, Paris, Reykjavik, Riga, Tallinn, Wien</li><li>Click on a country and zoom into the city to find base stations and vulnerability scores.</li><li>Some operator\'s data are hidden due to responsible disclosure</li><li>The majority of the data comes from  4G networks. Since 5G networks are in trial phase in multiple places so we do not have quality data to represent in this map.</li></ul>'
     };
 
     info.addTo(ltemap);
